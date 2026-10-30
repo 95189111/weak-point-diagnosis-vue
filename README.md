@@ -10,7 +10,7 @@ Cloudflare Pages 等静态托管平台。
 
 **在线演示：** <https://95189111.github.io/weak-point-diagnosis-vue/>
 
-**备用线路（Cloudflare Pages）：** <https://weak-point-diagnosis-vue.pages.dev/>
+**备用线路（Cloudflare Pages，随仓库自动部署）：** <https://weak-point-vue-auto.pages.dev/>
 
 ## 技术栈
 
