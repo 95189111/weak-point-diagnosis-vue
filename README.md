@@ -6,6 +6,8 @@ Cloudflare Pages 等静态托管平台。
 
 业务闭环保持与原系统一致：**测（学情导入）→ 诊（薄弱识别）→ 练（靶向练习）→ 跟（干预跟踪）**。
 
+**仓库地址：** <https://github.com/95189111/weak-point-diagnosis-vue>
+
 **在线演示：** <https://95189111.github.io/weak-point-diagnosis-vue/>
 
 ## 技术栈
