@@ -6,6 +6,8 @@ Cloudflare Pages 等静态托管平台。
 
 业务闭环保持与原系统一致：**测（学情导入）→ 诊（薄弱识别）→ 练（靶向练习）→ 跟（干预跟踪）**。
 
+**在线演示：** <https://95189111.github.io/weak-point-diagnosis-vue/>
+
 ## 技术栈
 
 - Vue 3.5（Composition API + `<script setup>`）
@@ -72,6 +74,13 @@ npm run preview    # 本地预览构建产物
 - 练习结束未填二次正确率时按 `48 + 完成率×0.35` 估算
 - 阈值校验：薄弱 30-80、临界 40-90 且大于薄弱阈值、复查周期 3-30 天
 
+## 部署到 GitHub Pages（已启用）
+
+仓库内的 `.github/workflows/deploy-pages.yml` 会在每次推送到 `main` 时自动构建并发布：
+
+1. 仓库 **Settings → Pages → Source** 选择 **GitHub Actions**
+2. 推送后约 1 分钟，访问 `https://<用户名>.github.io/<仓库名>/`
+
 ## 部署到 Cloudflare Pages
 
 方式一（控制台）：把 `dist/` 文件夹拖拽上传到 Cloudflare Pages 即可。
@@ -94,5 +103,5 @@ npx wrangler pages deploy dist
 
 - 数据保存在浏览器 localStorage（键 `APP_DB_V2`），清空后自动恢复种子数据；
   系统设置页可重置阈值，所有改动仅影响本机演示数据。
-- 本仓库附带 `.tools/node-v20.18.1-win-x64`（便携版 Node，来自项目根目录的临时工具），
-  若本机已安装 Node.js 可直接删除该目录。
+- 本仓库只包含源码，不含 `node_modules` 与 Node 运行时（已在 `.gitignore` 中排除），
+  本地运行前执行 `npm install` 即可。
