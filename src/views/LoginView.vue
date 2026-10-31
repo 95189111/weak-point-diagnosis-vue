@@ -50,9 +50,7 @@ const router = useRouter()
 const auth = useAuthStore()
 
 const demoAccounts = [
-  { role: '教师', account: 'teacher01', password: 'Teach@2026' },
   { role: '教研组长', account: 'leader01', password: 'Leader@2026' },
-  { role: '学生', account: 'student01', password: 'Stu@2026' },
   { role: '管理员', account: 'admin', password: 'Admin@2026' },
 ]
 
