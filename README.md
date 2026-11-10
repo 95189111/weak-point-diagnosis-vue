@@ -27,8 +27,8 @@
 
 - 学校：西安汽车职业大学
 - 项目部署公网地址（Cloudflare Pages）：https://weak-point-vue-auto.pages.dev/
-- 备用地址（GitHub Pages）：https://95189111.github.io/xiwei-weak-point-diagnosis/
-- 代码仓库：https://github.com/95189111/xiwei-weak-point-diagnosis
+- 备用地址（GitHub Pages）：https://95189111.github.io/weak-point-diagnosis-vue/
+- 代码仓库：https://github.com/95189111/weak-point-diagnosis-vue
 
 ## 项目简介
 
