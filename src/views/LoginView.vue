@@ -3,7 +3,7 @@
     <div class="login-wrap">
       <div class="login-brand">
         <div class="kicker">CHUANZHI CUP · 教育信息化</div>
-        <h1>面向学情分析的<br>学生薄弱知识点识别系统</h1>
+        <h1>析微：面向学情分析的<br>学生薄弱知识点识别系统</h1>
         <p>从测验与作业数据中定位薄弱知识点，形成可执行的补救方案，构建「测 · 诊 · 练 · 跟」教学闭环。</p>
         <div class="feats">
           <div class="feat"><i>测</i><b>学情数据导入</b><span>周测月考成绩逐条入库</span></div>

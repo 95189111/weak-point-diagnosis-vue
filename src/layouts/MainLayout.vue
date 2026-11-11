@@ -3,7 +3,7 @@
     <header class="topbar">
       <div class="crumb">
         <el-icon :size="22" color="#0891B2"><DataAnalysis /></el-icon>
-        <span class="brand-name">薄弱知识点识别系统</span>
+        <span class="brand-name">析微 · 学生薄弱知识点识别系统</span>
         <span class="sep">/</span>
         <h1>{{ currentTitle }}</h1>
         <span class="hint">测 · 诊 · 练 · 跟 教学闭环</span>

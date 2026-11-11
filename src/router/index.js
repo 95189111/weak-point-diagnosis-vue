@@ -31,7 +31,7 @@ router.beforeEach((to) => {
   const auth = useAuthStore()
   if (to.name !== 'login' && !auth.token) return { name: 'login' }
   if (to.name === 'login' && auth.token) return { name: 'dashboard' }
-  document.title = to.meta.title ? `${to.meta.title} · 薄弱知识点识别系统` : '面向学情分析的学生薄弱知识点识别系统'
+  document.title = to.meta.title ? `${to.meta.title} · 析微学生薄弱知识点识别系统` : '析微：面向学情分析的学生薄弱知识点识别系统'
   return true
 })
 
