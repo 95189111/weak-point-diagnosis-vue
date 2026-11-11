@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "private": true,
   "type": "module",
-  "description": "面向学情分析的学生薄弱知识点识别系统（Vue3 + Mock 重构版）",
+  "description": "析微：面向学情分析的学生薄弱知识点识别系统（Vue3 + Mock 重构版）",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
